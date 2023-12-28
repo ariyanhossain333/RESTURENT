@@ -11,7 +11,7 @@
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
-
+ color:#ffc233 ;
 
 
   }
@@ -67,7 +67,7 @@ background-attachment: fixed;
     max-width: 1154px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 119px;
+    margin-top: 70px;
   }
   
   .hero-heading {
@@ -96,3 +96,68 @@ background-attachment: fixed;
     /* border-radius: 20%; */
   }
   
+  .inputbox{
+      padding: 8px 40px;
+      border-radius: 20px;
+      border: 1px solid white;
+  }
+
+  .clickbtn{
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    font-size: 25px;
+  }
+
+
+  .cards{
+    /* border: 5px solid white;
+    width: 400px;
+    height: 400px; */
+    text-align: center;
+    margin-top: 20px;
+    display: grid;
+    /* height: 100%;
+    width: 100%; */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 80px;
+  width: 80%;
+  margin:10px auto ;
+  padding: 20px;
+  border-radius: 10%;
+
+  }
+  .recipe{
+background-color: white;
+    display: flex;
+    /* grid-template-columns: repeat(auto, minmax(300px, 1fr)); */
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px;
+    cursor: pointer;
+    /* height: 200px;
+  
+    width: 200px; */
+    
+  }
+
+  .recipe img{
+    height: 300px;
+
+  }
+  .recipe h3{
+    font-size: 24px;
+  
+  }
+  .recipe p{
+    font-size: 20px;
+    color: gray;
+    margin: 5px 0;
+  }
+  h1{
+    color: #ffc233;
+    /* display: flex;
+    flex-direction: colum; */
+
+  }
